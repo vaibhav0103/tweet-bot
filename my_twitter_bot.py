@@ -45,7 +45,7 @@ def reply_to_tweets():
         store_last_seen_id(last_seen_id, FILE_NAME)
         # Replace 'Something' with a text you want to find
         if 'Something' in timeline_tweet.full_text.lower():
-            print('found messi!', flush=True)
+            print('found Something!', flush=True)
             print('responding back...', flush=True)
             
             # Replace 'Reply Something' by what you want to reply
